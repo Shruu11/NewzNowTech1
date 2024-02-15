@@ -10,6 +10,26 @@
     <title>NewzNowTech</title>
 </head>
 <body>
+
+        <style>
+        body {
+            padding-top: 56px; /* Adjust based on navbar height */
+        }
+
+        .navbar {
+            transition: top 0.3s;
+        }
+
+        .navbar.hidden {
+            top: -56px; /* Set to negative navbar height */
+        }
+
+        .navbar.fixed-top {
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
         <div class="container">
             <a class="navbar-brand fs-4" href="index.html">
