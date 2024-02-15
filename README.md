@@ -1,0 +1,2 @@
+# NewzNowTech
+My New startup
